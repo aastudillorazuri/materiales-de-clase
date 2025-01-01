@@ -1,0 +1,19 @@
+Con todo lo que has aprendido el día de hoy, estás listo para emprender el primer proyecto completo por tu cuenta. Hoy vas a estar creando tu propia agenda anual.
+
+Dado que estamos recién empezando, tal vez no sea la agenda más vistosa o completa. Eso lo dejamos para los días siguientes. Pero puedes comenzar por crear una agenda totalmente funcional, y hacerlo libremente, aplicando todo lo que has aprendido hoy, y puede ser una agenda para este año actual, o si quieres, puedes ir preparándote para el año que viene.
+
+OPCIÓN A
+Puedes crear tu propia agenda de forma tal que las diferentes filas sean días del 1 al 31, y las diferentes columnas sean meses, de enero a diciembre.
+
+OPCIÓN B
+También, puedes crear otra versión de manera que cada fila sea una semana diferente, y cada columna un día de la semana. El objetivo es que puedas crear una agenda que se ajuste perfectamente a tus necesidades. 
+
+Sabemos que el año tiene muchos días, pero con lo que has aprendido hoy, sabes que en muchos casos puedes simplemente arrastrar tu cursor para que Excel haga el trabajo tedioso.
+
+Recuerda: tenemos muchas herramientas a nuestra disposición para poder crearla de la manera más rápida. Sabemos ingresar datos, crear secuencias de autorelleno, editar y deshacer acciones si nos equivocamos. Y también sabemos cómo guardar el trabajo realizado en un nuevo libro. No olvides ponerle un nombre relevante, como por ejemplo “Agenda Anual” más el número de año, o el que tú prefieras. Eso te va a permitir encontrar fácilmente el archivo luego cuando quieras recordar todo lo que has aprendido.
+
+Y si bien yo te voy a esperar en la siguiente lección para ayudarte a realizarlo en caso tengas alguna dificultad, te animo a que primero le dediques el tiempo que necesites para intentar resolverlo tú primero. Ahí es donde realmente ocurre el aprendizaje.
+
+Como ayuda adicional, al terminar este video encontrarás un cuestionario, que te va a guiar paso a paso durante este proyecto. Solo tienes que abrirlo en el primer paso, y dejarlo abierto a medida que trabajas, avanzando al siguiente paso cuando hayas resuelto el anterior. Es una buena manera de que no se te pase nada.
+
+Así que manos a la obra, ponte cómodo y sírvete tu bebida o snack preferido para comenzar a trabajar. Espero que estés tan emocionado como yo.
