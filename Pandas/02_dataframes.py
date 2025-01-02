@@ -21,4 +21,3 @@ datos = {
 df_clima = pd.DataFrame(datos) # Contiene las temperaturas promedio (grados Celsius) de cuatro ciudades españolas para los primeros cuatro meses del año.
 
 print(df_clima)
-
