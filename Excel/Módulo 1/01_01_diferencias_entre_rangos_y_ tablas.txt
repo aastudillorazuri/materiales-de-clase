@@ -1,5 +1,0 @@
-La diferencia fundamental entre un rango y una tabla de datos es que, mientras que el rango no admite añadir filas por debajo de la última o columnas a la derecha de la última, las tablas sí que permiten añadir filas o columnas al final de las mismas.
-
-Cuando tenemos una lista de datos, lo normal es que dicha lista vaya creciendo fundamentalmente en filas, ya que lo más habitual es seguir incorporando nuevos datos. Cuando esta la tenemos dentro de un rango, las operaciones que hayamos hecho hasta ese momento, no se actualizan con las nuevas filas que hayamos incorporado posteriormente.
-
-Ahora los datos del fichero 01_bd_cursos llegan hasta la fila 363.

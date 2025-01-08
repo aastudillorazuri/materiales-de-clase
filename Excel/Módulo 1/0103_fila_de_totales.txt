@@ -1,0 +1,21 @@
+La fila de totales es una fila exclusiva de las tablas, los rangos no la tienen. Es una fila que por defecto está oculta y, si se muestra, siempre aparece por debajo de la última fila de la tabla.
+
+Para activarla, tenemos que marcar el check de Fila de totales del grupo de botones OPCIONES DE ESTILO DE TABLA de la ficha DISEÑO DE TABLA. Una vez marcado, Excel se desplaza por debajo de la última fila de la tabla, mostrando dicha fila de totales, y además:
+
+*En la primera columna muestra el texto “TOTAL”.
+*En la última columna de la tabla:
+- Si es texto cuenta los datos
+- Si es numérico los suma por defecto
+
+En dicha fila de totales, podemos asignar a cada columna de la tabla la operación de totales con la que la queramos resumir. Para ello, colocamos la celda activa en la ficha de totales de una columna, en la parte derecha muestra un botón que, al hacer clic, despliega una lista con las diferentes funciones con las que podemos totalizar la columna. Basta con pulsar sobre la que queramos definir.
+
+Por ejemplo, la última columna de la tabla (PAGADO COMERCIAL) la está contando por defecto (ya que es texto). En este caso no queremos que aplique ninguna función a dicha columna. Para ello, colocamos la celda activa en dicha celda de totales de la columna y pulsamos el botón que muestra la lista desplegable. Si seleccionamos la opción NINGUNO, que viene seleccionada en la imagen mostrada, deja de totalizar dicha columna.
+
+Sin embargo, la columna IMPORTE COMERCIAL vamos a totalizarla por la función SUMA. Para ello, nos colocamos en la fila de totales en la columna IMPORTE COMERCIAL y, pulsando el botón que muestra la lista desplegable, seleccionamos la función SUMA.
+
+Ten en cuenta...
+La gran cualidad que tiene la fila de totales es que reacciona ante los filtros, de tal manera que se va actualizando con los datos que mostramos en la tabla cuando emitimos filtros. Lo veremos en el siguiente punto.
+
+La fila de totales siempre se muestra por debajo de la última fila de la tabla. Esto quiere decir que las tablas no admiten filas por debajo de la fila de totales. Por tanto, la fila de totales es una fila que vamos a consultar para ver el total de las columnas o el total de los datos que hayamos filtrado, pero si queremos agregar nuevas filas a la tabla debemos ocultarla.
+
+Para ocultarla, basta con desactivar el check donde la hemos mostrado. Una vez que la hayamos ocultado, podemos agregar las nuevas filas a la tabla y, si posteriormente la queremos volver a mostrar, esta aparecería por debajo de la última fila que la tabla tenga en ese momento y con la configuración de funciones que habíamos dejado aplicadas a cada columna en el momento de ocultarla.

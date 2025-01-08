@@ -1,0 +1,19 @@
+La diferencia fundamental entre un rango y una tabla de datos es que, mientras que el rango no admite añadir filas por debajo de la última o columnas a la derecha de la última, las tablas sí que permiten añadir filas o columnas al final de las mismas.
+
+Cuando tenemos una lista de datos, lo normal es que dicha lista vaya creciendo fundamentalmente en filas, ya que lo más habitual es seguir incorporando nuevos datos. Cuando esta la tenemos dentro de un rango, las operaciones que hayamos hecho hasta ese momento, no se actualizan con las nuevas filas que hayamos incorporado posteriormente.
+
+Ahora los datos del fichero 01_bd_cursos llegan hasta la fila 363.
+
+Rango:
+Si hemos lanzamos cálculos sobre dichos datos y otras operaciones, como pueden ser tablas dinámicas, y trabajamos sobre el rango hasta dicha fila 363, al agregar nuevas filas a partir de la 364, el rango no los incorpora, de tal manera que los cálculos o tablas dinámicas que hayamos creado no se actualizarán con las nuevas filas incorporadas.
+
+Tabla:
+Sin embargo, si la misma lista de datos la tenemos dentro de una tabla, esta también llega actualmente hasta la fila 363, pero si incorporamos nuevos datos, la tabla incorpora dichas filas, por lo que todos los cálculos, tablas dinámicas u operaciones que hayamos hecho sobre la tabla, se irán actualizando a medida que la tabla va agregando dichos datos.
+
+Por tanto, las tablas nos dan más ventaja, nos ahorran tiempo y mejoran el rendimiento a la hora de actualizar de manera automática los datos.
+
+Otra diferencia entre ambos elementos es que, dentro de una tabla, al desplazar la pantalla hacia abajo, los encabezados se quedan grabados en los rótulos de columnas.
+
+Sin embargo, cuando los datos están dentro de un rango, al desplazarnos hacia las filas inferiores, perdemos de vista los títulos de la lista de datos y tendríamos que realizar la operación de Inmovilizar Panel, para que estos queden fijos en nuestra pantalla. De esta manera, en una tabla, no sería necesario inmovilizar paneles simplemente para visualizar el título de las columnas en la primera fila cuando nos desplazamos por las filas de datos.
+
+Recuerda, para que tengamos activadas las características de la tabla, la celda activa ha de estar en cualquier celda, pero siempre dentro de la tabla, de tal forma que tengamos visible la ficha DISEÑO DE TABLA.

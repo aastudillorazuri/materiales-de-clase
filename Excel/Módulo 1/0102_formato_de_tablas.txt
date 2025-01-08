@@ -1,0 +1,24 @@
+A continuación, vamos a ver cómo cambiar el formato de la tabla a través de la ficha DISEÑO DE TABLA. 
+
+En dicha ficha, a través del grupo de botones ESTILOS DE TABLA, podemos cambiar el formato que viene de manera predefinida cuando convertimos un rango en una tabla. Por defecto nos aplica una combinación de color en azul y blanco, pero podemos cambiar a través del grupo de botones ESTILOS DE TABLA de dicha ficha DISEÑO DE TABLA.
+
+Dichos estilos, se refieren al formato o combinación de colores que vamos a asignar a la tabla en la que estamos colocados. Pulsando sobre el botón situado en la esquina inferior derecha de los formatos del grupo estilos, nos muestra la galería de estilos que podemos asignar a la tabla.
+
+Seleccionando el formato deseado y pulsando con el botón izquierdo del ratón sobre él, la tabla cambia el formato al nuevo seleccionado.
+
+Una vez asignado el estilo deseado, podemos cambiar levemente su configuración a través del grupo de botones OPCIONES DE ESTILO DE TABLA, de dicha ficha DISEÑO DE TABLA. Vamos a ver cada una de las opciones, exceptuando la opción FILA DE TOTALES, que será explicado en el siguiente apartado:
+
+- Fila de encabezado
+Para mostrar u ocultar en pantalla la fila de encabezados de la tabla.
+
+- Filas con bandas
+Si la activamos, muestra las filas pares en un color y las impares en otro. Si está desactivada, todas la da el mismo formato.
+
+- Primera columna
+Si la activamos, se resalta la primera columna de la tabla con el mismo formato que la fila de encabezados.
+
+- Última columna
+Si la activamos, se resalta la última columna de la tabla con el mismo formato que la fila de encabezados.
+
+- Columnas con bandas
+Si activamos dicha opción, las columnas impares se presentan en un color y las pares en otro.

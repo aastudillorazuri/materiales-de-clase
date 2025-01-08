@@ -1,0 +1,50 @@
+Mediante los filtros, se pueden mostrar solo aquellos datos concretos de una tabla o rango que queramos consultar.
+
+Los filtros en las tablas se configuran, al igual que en los rangos, a través de los botones de filtro, situados a la derecha del encabezado de cada columna. Por defecto, al convertir un rango en una tabla, como hemos hecho anteriormente, se muestran directamente los botones de filtro. En un rango los botones de filtro permanecen ocultos y tendríamos que mostrarlos a través de la ficha DATOS en el grupo de botones ORDENAR Y FILTRAR pulsando el botón FILTRO.
+
+El botón de filtro de cada columna muestra los diferentes elementos que tiene dicha columna. Por ejemplo, si pulsamos el botón de filtro del campo CURSO, nos mostraría un desplegable, donde en la parte inferior tenemos los elementos del campo curso, es decir, los diferentes cursos que tenemos registrados en dicha columna.
+
+Al estar activado el check en todos y cada uno de los cursos, nos muestra todos los diferentes cursos registrados, pero si solo queremos mostrar DISEÑO, PROGRAMACION y WORD, tendremos que dejar activado el check solo de los que vamos a mostrar.
+
+Para ello podemos o bien desactivar los que no queremos mostrar, o bien desactivamos todos en la opción SELECCIONAR TODO y luego activamos solo el de los elementos que vamos a mostrar: DISEÑO, PROGRAMACIÓN y WORD.
+
+Con ellos activados pulsamos el botón ACEPTAR y de manera automática la tabla nos muestra solo las filas que contienen esos tres cursos.
+
+Si a continuación consultamos la fila de totales, veremos cómo los resultados se habrán actualizado al de las filas que nos está mostrando dicho filtro.
+
+Sobre los datos filtrados podemos seguir aplicando más filtros en otras columnas.
+
+Cuando tenemos aplicado un filtro, los rótulos de fila se colocan en color azul; sin embargo, cuando la tabla no está filtrada, los rótulos de fila se mantienen en color negro.
+
+Para quitar los filtros que hemos aplicado, podemos hacerlo bien uno a uno en cada una de las columnas filtradas o bien quitar todos al mismo tiempo. En primer lugar, sabemos las columnas en las que hemos filtrado porque el botón de filtro tiene el dibujo del icono del filtro.
+
+Pulsando el botón de filtro de un campo filtrado, podemos seleccionar la opción de Borrar filtro. Por ejemplo, si queremos quitar el filtro del campo CURSO, pulsamos el botón de dicha columna y en el desplegable mostrado seleccionamos la opción Borrar filtro de "CURSO". Y de esta manera solo se elimina el filtro aplicado a la columna curso, pero el resto de las columnas siguen filtradas.
+
+Si lo que queremos es quitar el filtro de todas las columnas al mismo tiempo, lo hacemos desde la ficha DATOS, en el grupo de botones ORDENAR Y FILTRAR, pulsando el botón BORRAR. De esta manera se eliminan los filtros de todas las columnas, lo sabremos porque los rótulos de fila se vuelven a poner en color negro.
+
+Los filtros que hemos estado realizando, han sido seleccionando diferentes elementos de las columnas, pero también podemos filtrar por tipo de datos, ya que el botón de filtro de cada columna detecta el tipo de dato de esta.
+
+Por ejemplo, si pulsamos nuevamente el botón de filtro del campo CURSO, por encima de los elementos está la opción de filtrar por tipo de dato. Al ser una columna texto, nos muestra la opción de Filtros de texto. Si nos colocamos sobre dicha opción nos despliega una serie de opciones para filtrar por una columna texto.
+
+Por ejemplo, vamos a seleccionar la opción termina con para filtrar aquellos cursos que terminan con la letra “S”.
+
+Pulsamos el botón ACEPTAR de la ventana, nos mostrará los cursos que terminan por dicha letra “S”.
+
+Ten en cuenta...
+No se diferencian las mayúsculas de las minúsculas.
+
+De la misma forma, tenemos en un campo numérico los filtros de número. Por ejemplo, si pulsamos el botón de filtro del campo DURACION veremos que nos muestra la opción de Filtros de número, el cual nos muestra opciones para poder hacer comparaciones numéricas.
+
+Vamos a filtrar las duraciones entre 20 y 35. Para ello seleccionamos el valor Entre... y hacemos la configuración.
+
+Pulsando el botón ACEPTAR nos muestra los cursos con duración comprendida en el intervalo indicado.
+
+Los campos fecha son campos especiales para los filtros, ya que, si pulsamos el botón de filtro de un campo fecha, en vez de mostrar las diferentes fechas, nos las muestra agrupadas por años, meses y días.
+
+Para verlo, si tenemos aplicado algún filtro vamos a eliminar todos los filtros y vamos a pulsar el botón de filtro del campo FECHA CURSO, mostrando los años del 2019 al 2021.
+
+Esto quiere decir que todas las fechas registradas en la tabla pertenecen a estos tres años. A la izquierda de cada año vemos el botón +, el cual muestra los meses registrados en dicho año, y a su vez a la izquierda de cada mes tenemos otro botón +, que muestra los días de ese mes del año indicado en el que se han registrado cursos. Estas opciones vienen muy bien para filtrar por períodos de tiempo.
+
+Por otro lado, el botón de filtro de un campo fecha detecta dicha columna como fecha, mostrando de esta forma la opción de Filtros de fecha, donde podríamos hacer comparaciones a alguna fecha concreta y manejando datos actuales mostrar datos por semanas, meses, trimestre o años.
+
+Hay que indicar que, en un mismo campo, o filtramos por elemento o filtramos por tipo de dato, es incompatible, en una misma columna, hacer el filtro por elemento y luego por tipo de dato o viceversa. Prevalece el último que hayamos realizado.

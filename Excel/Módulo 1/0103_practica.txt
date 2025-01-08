@@ -1,0 +1,6 @@
+Configura la fila de totales totalizando las siguientes columnas con las funciones indicadas:
+CURSO: Recuento
+DURACIÓN: Suma
+IMPORTE CLIENTE: Suma
+IMPORTE PROFESOR: Promedio
+FECHA CURSO: Mín.
