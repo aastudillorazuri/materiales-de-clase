@@ -1,4 +1,4 @@
-En el fichero 0104_bd_cursos_b, quita todos y realiza el siguiente filtro:
+En el fichero 01_04_bd_cursos_b, quita todos y realiza el siguiente filtro:
 CLIENTE: CLIENTE-001, CLIENTE-003, CLIENTE-005 y CLIENTE-008
 FECHA CURSO: SEIS PRIMEROS MESES DE LOS AÑOS 2019 Y 2021
 DURACION: MAYOR QUE 20

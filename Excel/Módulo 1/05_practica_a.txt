@@ -1,0 +1,5 @@
+En el fichero 01_03_bd_cursos, configura el filtro aplicado en la columna CURSO (DISEÑO, PROGRAMACIÓN y WORD). Luego filtra las columnas de la siguiente manera:
+JORNADA CURSO: MAÑANA y TARDE
+PAGADO CLIENTE: NO
+PAIS: ITALIA
+Consulta los resultados de la fila de totales.

@@ -1,4 +1,4 @@
-En el fichero 0104_bd_cursos_a, elimina todos los filtros y filtra las siguientes columnas:
+En el fichero 01_04_bd_cursos_a, elimina todos los filtros y filtra las siguientes columnas:
 CURSO: WORD, EXCEL y ACCESS
 IMPORTE CLIENTE: MENOR QUE 1000
 JORNADA CURSO: MAÑANA Y NOCHE
