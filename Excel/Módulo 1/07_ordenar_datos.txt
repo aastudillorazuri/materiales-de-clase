@@ -2,7 +2,7 @@ A la hora de ordenar los datos de las columnas de la tabla, se puede realizar de
 
 * Ordenar datos de la tabla por una sola columna
 
-Sobre nuestro fichero 01_05_bd_cursos quitamos cualquier filtro que pueda estar aplicado, las segmentaciones que estén mostradas y, en caso de estar mostrada la fila de totales la ocultamos.
+Sobre nuestro fichero 06_bd_cursos quitamos cualquier filtro que pueda estar aplicado, las segmentaciones que estén mostradas y, en caso de estar mostrada la fila de totales la ocultamos.
 
 Si queremos ordenar los cursos por el campo FECHA CURSO, por ejemplo, una opción es hacerlo a través del botón de filtro de la columna que vayamos a ordenar. En este caso, pulsamos el botón de filtro de la columna FECHA CURSO, y en las dos primeras opciones, indicamos si queremos un orden ascendente (de más antiguas a más recientes) o descendente (de más recientes a más antiguas).
 

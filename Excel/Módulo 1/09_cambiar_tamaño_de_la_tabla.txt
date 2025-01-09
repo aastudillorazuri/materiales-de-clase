@@ -1,13 +1,7 @@
-Al igual que podemos convertir un rango en una tabla, Excel también nos da la posibilidad de convertir la tabla en un rango. Para realizar dicha tarea, colocaremos la celda activa dentro de la tabla que vamos a convertir en rango e iremos a la ficha DISEÑO DE TABLA, a continuación, al grupo de botones HERRAMIENTAS y pulsaremos el botón CONVERTIR EN RANGO.
+Si en un momento dado se han agregado filas o columnas a la tabla que por algún motivo la tabla no las ha admitido, lógicamente tenemos que tratar que la tabla las admita. Para ello, lo que haremos será cambiar el tamaño de la tabla, seleccionando el nuevo rango de celdas que incluyen las nuevas filas y/o columnas incorporadas.
 
-Automáticamente, aparecerá un cuadro de diálogo.
+Para realizar dicha operación, colocaremos la celda activa dentro de la tabla e iremos a la fila DISEÑO DE TABLA y al grupo de botones PROPIEDADES y ahí pulsaremos el botón CAMBIAR TAMAÑO DE LA TABLA.
 
-Si pulsamos el botón SÍ, convertimos la tabla en un rango, de tal manera que lo que ocurría sería:
+Se mostrará un cuadro de diálogo, con la dirección del rango que actualmente tiene la tabla.
 
-- Si hubiese alguna segmentación, esta desaparecería
-- Los botones de filtro se ocultan
-- Desaparece la ficha DISEÑO DE TABLA	
-- Pero el estilo de formato de tabla quedaría aplicado al rango
-
-Si en el cuadro de diálogo anteriormente mostrado, de convertir la tabla en rango, pulsamos el botón NO, lógicamente anulamos la orden de convertir la tabla en un rango.
-
+Lo que tendremos que hacer, será borrar el rango mostrado y seleccionar el nuevo rango de celdas que incluyen las nuevas filas y/o columnas incorporadas.
