@@ -1,0 +1,3 @@
+Agrega en el fichero 11_bd_cursos_a, a continuación de la columna GASTO, las siguientes columnas: BENEFICIO y % BENEFICIO. Calcula dichas columnas con las siguientes fórmulas:
+- Beneficio: importe cliente – gasto
+- % beneficio: beneficio / importe cliente. Aplica a esta columna un formato %.

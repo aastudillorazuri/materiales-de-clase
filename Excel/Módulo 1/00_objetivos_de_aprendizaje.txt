@@ -1,0 +1,3 @@
+- Dominar los fundamentos básicos de Excel, incluyendo la navegación por la interfaz, entrada de datos y organización de hojas de cálculo.
+- Comprender y aplicar funciones comunes de Excel para cálculos simples y funciones avanzadas.
+- Adquirir habilidades para trabajar con tablas dinámicas a través de ejemplos prácticos y casos de estudio del mundo de la empresa.
