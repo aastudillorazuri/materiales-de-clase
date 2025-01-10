@@ -1,0 +1,5 @@
+En la tabla dinámica del archivo 16_bd_cursos, mueve los campos tal y como se indica:
+- Filtro: PAIS (filtrar por España)
+- Fila: CLIENTE
+- Valores: IMPORTE CLIENTE
+Ordena la tabla dinámica por la suma del importe cliente de menor a mayor.

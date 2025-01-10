@@ -1,0 +1,30 @@
+La tabla dinámica es una herramienta de análisis de datos, que resumen y analizan los datos que tenemos en una base de datos, ya sea rango o sea tabla, y de esta manera saber perfectamente el tipo de información que estamos manejando para poder mejorar en la toma de decisiones.
+
+Ten en cuenta...
+De una misma tabla o rango, podemos insertar tantas tablas dinámicas como sean necesarias para los informes que queramos mostrar.
+
+* Insertar una tabla dinámica
+
+Abrimos el fichero 15_bd_cursos y nos colocamos en la hoja CURSOS, sobre cualquier celda que esté dentro de la tabla que vamos a resumir con una primera tabla dinámica.
+
+A continuación, vamos a ficha INSERTAR y en el primer grupo de botones TABLAS, pulsamos el botón TABLA DINÁMICA.
+
+Podemos pulsar directamente sobre el dibujo del botón o bien, si pulsamos sobre la parte inferior del botón, seleccionamos la opción DE UNA TABLA O RANGO. En cualquier caso, nos va a mostrar un cuadro de diálogo.
+
+En la parte superior de la ventana vemos que identifica la tabla que vamos a resumir, en caso de que el origen sea un rango, nos mostrará la dirección del rango.
+
+En la parte inferior de la ventana, tenemos que indicar dónde queremos insertar la tabla dinámica:
+
+- NUEVA HOJA DE CÁLCULO: Si dejamos marcada esta opción, se inserta una nueva hoja de cálculo, en este caso por delante de la hoja CURSOS, que es la hoja en la que está la tabla, con la tabla dinámica.
+
+- HOJA DE CÁLCULO EXISTENTE: Si marcamos esta opción, se activa por debajo el cuadro de ubicación, para que con el botón izquierdo del ratón pulsemos sobre el nombre de la solapa de la hoja que queremos insertar la tabla dinámica y, posteriormente, dentro de esa hoja pulsar a partir de qué celda queremos colocarla.
+
+En este caso, dejamos activada la opción Nueva hoja de cálculo, y pulsando el botón ACEPTAR de la ventana, vemos que a la izquierda de la hoja CURSOS, se inserta una nueva hoja con la tabla dinámica. Lo primero que llama la atención al haber insertado la tabla dinámica, es el marco rectangular que aparece en la parte izquierda de la ventana de Excel.
+
+Dicha área se denomina área de la tabla dinámica o bien esqueleto de la tabla dinámica.
+
+Siempre y cuando, tengamos dentro del área o esqueleto de la tabla dinámica la celda activa, se muestra en la parte derecha de la ventana de Excel el panel de campos de la tabla dinámica, el cual muestra los campos que tenemos en la tabla de origen colocados en el mismo orden que en la tabla, así como las cuatro áreas de la tabla dinámica: FILTRO, COLUMNAS, FILAS y VALORES, que veremos en el punto siguiente. De tal forma, que los informes se van a mostrar en el esqueleto, pero se configuran desde el panel de campos, arrastrando con el botón izquierdo del ratón, el nombre del campo de la tabla que vayamos a mostrar, al área de la tabla dinámica donde lo queramos visualizar.
+
+Si colocamos la celda activa en cualquier celda fuera del esqueleto, automáticamente desaparece el panel de campo. Volviendo a colocar la celda activa en el esqueleto, este se vuelve a visualizar. Del mismo modo, teniendo la celda activa dentro del esqueleto de la tabla dinámica, al final de la cinta de opciones, se muestran dos nuevas fichas: ANALIZAR TABLA DINÁMICA y DISEÑO.
+
+Colocando la celda activa fuera de dicho esqueleto, en cualquier otra celda de la hoja, también se ocultan ambas fichas.
