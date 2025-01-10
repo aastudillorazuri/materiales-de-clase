@@ -1,0 +1,56 @@
+La función BUSCARV es una función de búsqueda, que lo que hace es buscar una información que nosotros pidamos y traernos dicha información.
+
+En el EJERCICIO BUSCARV, tenemos dos hojas: ARTICULOS y COMPRAS.
+
+- COMPRAS: En esta hoja realizamos compras de diferentes REFERENCIAS, donde tenemos las UNIDADES PEDIDAS, que son las unidades que compramos de cada referencia, así como la FECHA PEDIDO que es la fecha en la que hacemos la compra. De cada REFERENCIA que compramos, queremos saber el NOMBRE ARTICULO que le corresponde, el PRECIO ARTICULO al que la compramos y el PROVEEDOR que nos la vende.
+
+- ARTICULOS: Para poder buscar la información que necesitamos, debemos tener un catálogo o un lugar en el que se encuentre dicha información. Esto lo tenemos en la hoja ARTICULOS, donde vemos que es el catálogo de referencias que tenemos, en el que se puede apreciar de cada REFERENCIA tanto el ARTICULO, PROVEEDOR y PRECIO que es la información que queremos buscar en la hoja COMPRAS.
+
+Lo primero que vamos a ver son las condiciones que se deben de dar para que podamos utilizar la función BUSCARV:
+
+1. En primer lugar, manejamos dos listas de datos, donde ambas pueden ser rangos, o tablas o una tabla y otro rango, en este caso las listas de datos son la de la hoja COMPRAS y la de la hoja ARTICULOS.
+2. Ambas listas de datos han de tener lo que se llama una columna coincidente, es decir, una columna que tenga los mismos elementos. En este caso, las referencias que tenemos en la hoja COMPRAS son las mismas que tenemos en el catálogo de la hoja ARTICULOS. Ahora bien, que sean coincidentes las columnas no quiere decir que deban tener el mismo nombre, sino que contienen los mismos elementos.
+
+Los marcos de cada imagen representan los elementos de la columna coincidente de cada hoja. Vamos a distinguir las tablas:
+
+- Tabla principal: La lista de datos correspondiente al catálogo, es decir, a la que contiene la información que vamos a buscar (en este caso la de la hoja ARTICULOS), se denomina tabla principal de la búsqueda. Es la tabla principal, puesto que sin ella no tendríamos fuente de origen  de la información.
+
+- Tabla externa: La lista en la que vamos a usar o escribir la función BUSCARV para buscar la información en la tabla principal (en este caso la hoja COMPRAS) se denomina la tabla externa de la búsqueda.
+
+En la tabla principal, los elementos de la columna coincidente, es decir, los elementos de la columna REFERENCIA, no se deberían repetir, es decir, no tendría que haber dos referencias iguales, ya que en ese caso no sabríamos, por ejemplo, diferenciar el precio de una con el de la otra que es igual.
+
+Ten en cuenta...
+En caso de tener dos referencias iguales en el catálogo o tabla principal, la función siempre va a encontrar, y, por tanto, siempre nos va a devolver, el primero que se encuentre escrito en la tabla.
+Sin embargo, en la tabla externa, la columna coincidente se puede repetir tantas veces como sea necesario, es decir, que, si de una misma referencia hacemos 20 compras en 20 fechas diferentes, esta se repetirá en la tabla externa 20 veces.
+
+Finalmente, otra condición fundamental que se debe dar es que, en la tabla principal, la columna coincidente esté colocada la primera de la tabla o, al menos, a la izquierda del resto de las columnas que queremos buscar.
+
+La función solo busca columnas a la derecha de la coincidente, nunca a la izquierda.
+
+En este ejercicio vemos que se están dando todas las condiciones que hemos descrito, por lo que podemos aplicar sin ningún tipo de problema la función BUSCARV. La tenemos que aplicar en la tabla externa, en la hoja COMPRAS.
+
+En este caso vamos a hacer el ejemplo siendo ambas listas de datos un rango.
+
+La primera búsqueda que haremos será la de la columna NOMBRE ARTICULO, por tanto, nos posicionamos en la celda C2 de la hoja COMPRAS y abrimos la función BUSCARV, donde una vez abierto el paréntesis, nos muestra los cuatro argumentos que tiene la función en su etiqueta de ayuda.
+
+Argumentos:
+
+- VALOR_BUSCADO: Es el valor del cual estamos buscando información. Siempre está en la tabla externa de la búsqueda, y es el dato de la columna coincidente. Por tanto, en este caso, el valor buscado es la referencia que está en la celda A2 de esta hoja compras. Ya que es de esa referencia de la que estamos buscando el nombre del artículo.
+
+- MATRIZ_TABLA: Es el rango de la tabla principal, en el que tenemos que seleccionar siempre como primera columna la coincidente y de ahí a la derecha al menos hasta la columna que tiene la información que estamos buscando. Lo más cómodo y habitual es seleccionar desde la columna coincidente hasta la última columna de la tabla o rango.
+
+En este caso, como es un rango y está en la hoja ARTICULO, cambiamos a la hoja y desde A2 de la hoja ARTICULOS, seleccionamos hasta la celda D11. Como el rango no se mueve y empieza siempre en A2, y siempre acaba en D11, tendremos que hacer referencia absoluta a ambas celdas.
+
+- INDICADOR_COLUMNAS: En dicho argumento, tenemos que poner siempre un número entero, solo admite números enteros. Es el número de la posición que ocupa la columna en la tabla principal que tiene la información que estamos buscando.
+
+El rango que hemos seleccionado en el argumento anterior como tabla principal, es un rango que contiene cuatro columnas. De las cuatro seleccionadas, la segunda es la que tiene el nombre del artículo (que es la información que buscamos) por tanto, es este argumento pondremos el número 2.
+
+RANGO: finalmente, en este argumento tenemos que indicar qué tipo de coincidencia queremos aplicar en la búsqueda, habiendo dos posibilidades:
+
+- FALSO: Podemos utilizar el valor FALSO o bien poner el número 0. Ambos los interpretan como coincidencia exacta. Lo que hace es que si el valor buscado (la referencia de la cual estamos buscando el nombre del artículo) no lo tenemos en la columna coincidente de la tabla principal, la función devuelve error.
+
+- VERDADERO: Podemos utilizar el valor VERDADERO o bien poner el número 1. En ambos casos, se interpreta el tipo de coincidencia como coincidencia aproximada, lo que hace es que, si el valor buscado no lo tenemos en la columna coincidente de la tabla principal, nos va a devolver el nombre del artículo de la referencia que más se le acerque por arriba a nuestro valor buscado en dicha tabla principal. Dicha opción de verdadero se utiliza en casos donde hagamos búsquedas en un intervalo numérico.
+
+Generalmente, en la mayoría de los casos vamos a poner siempre el tipo de coincidencia exacta.
+
+Finalmente, pulsamos ENTER para mostrar el resultado y copiamos para el resto de las referencias de la columna.
