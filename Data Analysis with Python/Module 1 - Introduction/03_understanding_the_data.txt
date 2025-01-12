@@ -1,0 +1,78 @@
+In this video we'll be looking at the dataset on used car prices.
+The dataset used in this course is an open dataset, by Jeffrey C. Schlimmer.
+This dataset is in CSV format, which separates each of the values with commas, making it
+very easy to import in most tools or applications.
+Each line represents a row in the dataset.
+In the hands-on lab for this module, you'll be able to download and use the CSV file.
+Do you notice anything different about the first row?
+Sometimes the first row is a header which contains a column name for each of the 26
+columns.
+But in this example, it's just another row of data.
+So here's the documentation on what each of the 26 columns represent.
+There are a lot of columns, and I'll just go through a few of the column names, but
+you can also check out the link at the bottom of the slide to go through the descriptions
+yourself.
+The first attribute, "symboling", corresponds to the insurance risk level of a car.
+Cars are initially assigned a risk factor symbol associated with their price.
+Then, if an automobile is more risky, this symbol is adjusted by moving it up the scale.
+A value of +3 indicates that the auto is risky, -3 that it is probably pretty safe.
+The second attribute "normalized-losses" is the relative average loss payment per insured
+vehicle year.
+This value is normalized for all autos within a particular size classification (two-door
+small, station wagons, sports/speciality, etc...), and represents the average loss per
+car per year.
+The values range from 65 to 256.
+The other attributes are easy to understand.
+If you would like to check out more details, refer to the link at the bottom of the slide.
+Ok, after we understand the meaning of each feature, we'll notice that the 26th attribute
+is "price".
+This is our target value, or label, in other words.
+This means "price" is the value that we want to predict from the dataset, and the
+predictors should be all the other variables listed, like "symboling", "normalized-losses",
+"make" and so on.
+Thus, the goal of this project is to predict "price" in terms of other car features.
+Just a quick note, this dataset is actually from 1985, so the car prices for the models
+may seem a little low, but just bear in mind that the goal of this exercise is to learn
+how to analyze the data.
+
+##################################################################################################
+
+
+En este video, exploraremos el conjunto de datos sobre precios de autos usados.
+El conjunto de datos utilizado en este curso es un dataset abierto creado por Jeffrey C.
+Schlimmer.
+Este conjunto de datos está en formato CSV, que separa cada valor con comas, lo que facilita
+su importación en la mayoría de las herramientas o aplicaciones.
+Cada línea representa una fila en el conjunto de datos.
+En el laboratorio práctico de este módulo, podrás descargar y utilizar el archivo CSV.
+¿Notas algo diferente en la primera fila?
+A veces, la primera fila es un encabezado que contiene los nombres de las columnas, pero en
+este caso, es solo otra fila de datos.
+Aquí tienes la documentación sobre lo que representa cada una de las 26 columnas.
+Hay muchas columnas, y mencionaré solo algunos nombres, pero también puedes consultar el
+enlace en la parte inferior de la diapositiva para revisar las descripciones por ti mismo.
+El primer atributo, "symboling", corresponde al nivel de riesgo del seguro de un auto.
+A los autos se les asigna inicialmente un símbolo de factor de riesgo asociado con su precio.
+Luego, si un automóvil es más riesgoso, este símbolo se ajusta subiendo en la escala.
+Un valor de +3 indica que el auto es riesgoso, mientras que -3 indica que probablemente es 
+bastante seguro.
+El segundo atributo, "normalized-losses", es la pérdida promedio relativa por vehículo
+asegurado al año.
+Este valor está normalizado para todos los autos dentro de una clasificación de tamaño
+particular (como autos pequeños de dos puertas, station wagons, deportivos/especiales, etc.)
+y representa la pérdida promedio por auto al año.
+Los valores oscilan entre 65 y 256.
+Los otros atributos son más fáciles de entender.
+Si deseas más detalles, consulta el enlace en la parte inferior de la diapositiva.
+Una vez que entendemos el significado de cada característica, notaremos que el atributo
+número 26 es "price".
+Este es nuestro valor objetivo, o etiqueta, dicho de otra manera.
+Esto significa que "price" es el valor que queremos predecir a partir del conjunto de datos,
+y los predictores serán todas las demás variables, como "symboling", "normalized-losses",
+"make", entre otras.
+Por lo tanto, el objetivo de este proyecto es predecir el "price" en función de otras
+características de los autos.
+Un pequeño detalle: este conjunto de datos es en realidad de 1985, por lo que los precios
+de los autos pueden parecer un poco bajos.
+Sin embargo, ten en cuenta que el propósito de este ejercicio es aprender cómo analizar los
+datos.

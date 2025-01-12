@@ -1,0 +1,24 @@
+Welcome to this module on Introduction to Data Analysis with Python.
+In this module, you'll learn about an example around estimating used car prices that we
+will analyze in this course, using Python.
+Then we will introduce an overview of Python packages used for data analysis.
+And finally, you will learn about how to import and export data in and from Python, and how
+to obtain basic insights from the dataset on used cars and their prices.
+So to learn how to analyze data in Python, we'll be answering the following question:
+"Can we estimate the price of a used car based on its characteristics?"
+To answer this question, we are going to use various Python packages to perform data cleaning,
+exploratory data analysis, model development and model evaluation.
+
+##################################################################################################
+
+Bienvenidos a este módulo sobre Introducción al Análisis de Datos con Python.
+En este módulo, aprenderás a través de un ejemplo sobre la estimación de precios de autos
+usados, que analizaremos en este curso utilizando Python.
+Luego, presentaremos una visión general de los paquetes de Python utilizados para el análisis
+de datos.
+Y, finalmente, aprenderás a importar y exportar datos hacia y desde Python, así como a
+obtener ideas básicas a partir del conjunto de datos sobre autos usados y sus precios.
+Para aprender cómo analizar datos en Python, responderemos la siguiente pregunta:
+"¿Podemos estimar el precio de un auto usado en función de sus características?"
+Para responder esta pregunta, utilizaremos varios paquetes de Python para realizar la limpieza
+de datos, el análisis exploratorio de datos, el desarrollo de modelos y la evaluación de modelos.

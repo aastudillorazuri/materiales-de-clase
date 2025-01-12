@@ -1,1 +1,0 @@
-En el fichero 13_ejercicio_buscarv_a, busca en las columnas D y F el precio de cada referencia y el proveedor que vende cada referencia.

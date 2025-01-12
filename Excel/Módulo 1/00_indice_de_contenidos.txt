@@ -1,8 +1,0 @@
-Fundamentos y masterclass
-
-- Tablas de datos
-- Referencias relativas y absolutas
-- Funciones vinculando hojas de cálculo: SUMA, CONTAR, CONTARA y CONTAR.SI
-- Función BUSCARV 
-- Función SI
-- Introducción a las tablas dinámicas

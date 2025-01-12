@@ -1,4 +1,0 @@
-En el fichero 11_referencias_relativas_a, calcula la columna % BENEFICIO del ejercicio que sería:
-- % BENEFICIO = MARGEN BENEFICIO / PRECIO COMPRA 
-- Ajusta el formato de número para que se vea como porcentaje (%)
-- Copia la fórmula al resto de productos

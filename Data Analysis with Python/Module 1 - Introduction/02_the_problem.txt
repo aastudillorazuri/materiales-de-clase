@@ -1,0 +1,64 @@
+In this video, we'll be talking about data analysis and the scenario in which we'll
+be playing the data analyst or data scientist.
+But before we begin talking about the problem (used car prices), we should first understand
+the importance of data analysis.
+As you know, data is collected everywhere around us, whether it's collected manually
+by scientists, or collected digitally every time you click on a website or your mobile
+device.
+But data does not mean information.
+Data analysis, and in essence, data science, helps us unlock the information and insights
+from raw data, to answer our questions.
+So data analysis plays an important role by helping us to discover useful information
+from the data, answer questions, and even predict the future or the unknown.
+So let's begin with our scenario.
+Let's say we have a friend named Tom.
+And Tom wants to sell his car.
+But the problem is, he doesn't know how much he should sell his car for.
+Tom wants to sell his car for as much as he can.
+But he also wants to set the price reasonably so someone would want to purchase it.
+So the price he sets should represent the value of the car.
+How can we help Tom determine the best price for his car?
+Let's think like data scientists and clearly define some of his problems:
+For example, is there data on the prices of other cars and their characteristics?
+What features of cars affect their prices?
+Colour?
+Brand?
+Does horsepower also affect the selling price, or perhaps, something else?
+As a data analyst or data scientist, these are some of the questions we can start thinking
+about.
+To answer these questions, we're going to need some data.
+In the next videos, we'll be going into how to understand the data, how to import
+it into Python, and how to begin looking into some basic insights from the data.
+
+##################################################################################################
+
+En este video, hablaremos sobre el análisis de datos y el escenario en el que asumiremos 
+el papel de analista o científico de datos.
+Pero antes de comenzar a hablar sobre el problema (los precios de autos usados), primero 
+debemos entender la importancia del análisis de datos.
+Como sabes, los datos se recopilan en todas partes a nuestro alrededor, ya sea de forma manual
+por científicos o de manera digital cada vez que haces clic en un sitio web o utilizas tu 
+dispositivo móvil.
+Sin embargo, los datos no significan información.
+El análisis de datos, y en esencia la ciencia de datos, nos ayuda a desbloquear la información
+y las ideas a partir de datos en bruto para responder nuestras preguntas.
+Por lo tanto, el análisis de datos desempeña un papel importante al ayudarnos a descubrir
+información útil, responder preguntas e incluso predecir el futuro o lo desconocido.
+Comencemos con nuestro escenario.
+Supongamos que tenemos un amigo llamado Tom.
+Tom quiere vender su auto, pero el problema es que no sabe por cuánto debería venderlo.
+Tom quiere obtener el mayor precio posible por su auto, pero también desea fijar un precio
+razonable para que alguien esté interesado en comprarlo.
+Por lo tanto, el precio que establezca debería representar el valor del auto.
+¿Cómo podemos ayudar a Tom a determinar el mejor precio para su auto?
+Pensemos como científicos de datos y definamos claramente algunos de sus problemas:
+Por ejemplo, ¿existen datos sobre los precios de otros autos y sus características?
+¿Qué características de los autos afectan sus precios?
+¿El color?
+¿La marca?
+¿La potencia del motor también influye en el precio de venta o quizá otra cosa?
+Como analistas o científicos de datos, estas son algunas de las preguntas que podemos comenzar 
+a plantearnos.
+Para responder a estas preguntas, necesitaremos algunos datos.
+En los próximos videos, veremos cómo entender los datos, cómo importarlos en Python y cómo 
+empezar a obtener algunas ideas básicas a partir de ellos.

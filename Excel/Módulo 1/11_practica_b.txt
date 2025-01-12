@@ -1,5 +1,0 @@
-En el fichero 11_referencia_absoluta_a, calcula las columnas SUELDO BRUTO, IMPORTE RETENCION y SUELDO NETO con las siguientes fórmulas:
-- SUELDO BRUTO: SALARIO BASE + IMPORTE COMISION
-- IMPORTE RETENCION: SUELDO BRUTO * RETENCION
-- SUELDO NETO: SUELDO BRUTO – IMPORTE RETENCION
-- Ajusta bien la referencia en cada fórmula para copiarla al resto de vendedores

@@ -1,1 +1,0 @@
-En el fichero 12_bd_cursos_rango_a, calcula en la celda B2 la suma de las duraciones de la hoja CURSOS y en la celda B3 la suma del IMPORTE CLIENTE y del IMPORTE COMERCIAL.

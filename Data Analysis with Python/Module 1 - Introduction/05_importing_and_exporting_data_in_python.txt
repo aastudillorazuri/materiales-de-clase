@@ -1,0 +1,127 @@
+In this video, we’ll look at how to read in data using Python’s pandas package.
+Once we have our data in Python, then we can perform all the subsequent data analysis procedures
+we need.
+Data acquisition is a process of loading and reading data into notebook from various sources.
+To read any data using Python’s pandas package, there are two important factors to consider:
+format and file path.
+Format is the way data is encoded.
+We can usually tell different encoding schemes by looking at the ending of the file name.
+Some common encodings are csv, json, xlsx, hdf and so forth.
+The (file) path tells us where the data is stored.
+Usually it is stored either on the computer we are using, or online on the internet.
+In our case, we found a dataset of used cars, which was obtained from the web address shown
+on the slide.
+When Jerry entered the web address in his web browser, he saw something like this.
+Each row is one data point.
+A large number of properties are associated with each data point.
+Because the properties are separated from each other by commas, we can guess the data
+format is csv, which stands for comma separated values.
+At this point, these are just numbers and don’t mean much to humans, but once we read
+in this data, we can try to make more sense out of it.
+In pandas, the “read_csv()” method can read in files with columns separated by commas
+into a pandas DataFrame.
+Reading data in pandas can be done quickly in three lines.
+First, import pandas.
+Then define a variable with the file path.
+And then use the read_csv method to import the data.
+However, “read_csv” assumes that the data contains a header.
+Our data on used cars has no column headers, so we need to specify “read_csv” to not
+assign headers by setting header to “none”.
+After reading the dataset, it is a good idea to look at the dataframe to get a better intuition
+and to ensure that everything occurred the way you expected.
+Since printing the entire dataset may take up too much time and resources, to save time,
+we can just use dataframe.head() to show the first n rows of the data frame.
+Similarly, dataframe.tail(n) shows the bottom n rows of data frame.
+Here, we printed out the first 5 rows of data.
+It seems that the dataset was read successfully!
+We can see that pandas automatically set the column header as a list of integers, because
+we set header=None when we read the data.
+It is difficult to work with the dataframe without having meaningful column names, however,
+we can assign column names in pandas.
+In our present case, it turned out the we have the column names in a separate file online.
+We first put the Column names in a list called headers.
+Then, we set df.columns equals headers to replace the default integer headers by the
+list.
+If we use the head() method introduced in the last slide to check the dataset, we see
+the correct headers inserted at the top of each column.
+At some point in time after you’ve done operations on your dataframe, you may want
+to export your pandas dataframe to a new CSV file.
+You can do this using the method, ”to_csv()"
+To do this, specify the file path (which includes the filename) that you want to write to.
+For example, if you would like to save the dataframe "df" as "automobile.csv" to your
+own computer, you can use the syntax: df.to_csv ("automobile.csv")
+For this course, we will only read and save csv files.
+However, pandas also supports importing and exporting of most data filetypes with different
+dataset formats.
+The code syntax for reading and saving other data formats is very similar to read or save
+csv file.
+Each column shows a different method to read and save files into a different format.
+
+##################################################################################################
+
+
+En este video, veremos cómo leer datos utilizando el paquete pandas de Python.
+Una vez que tenemos nuestros datos en Python, podemos realizar todos los procedimientos de 
+análisis de datos que necesitemos.
+La adquisición de datos es el proceso de cargar y leer datos en un cuaderno (notebook) desde
+varias fuentes.
+Para leer cualquier dato utilizando el paquete pandas de Python, hay dos factores importantes
+a considerar: formato y ruta del archivo.
+El formato es la forma en que los datos están codificados.
+Generalmente, podemos identificar los diferentes esquemas de codificación observando la 
+extensión del nombre del archivo.
+Algunas codificaciones comunes son: csv, json, xlsx, hdf, entre otras.
+La ruta del archivo nos indica dónde están almacenados los datos.
+Por lo general, los datos se almacenan en la computadora que estamos usando o en línea en 
+internet.
+En nuestro caso, encontramos un conjunto de datos sobre autos usados que obtuvimos de la 
+siguiente dirección web: https://archive.ics.uci.edu/autos/imports-85.data.
+Cuando Jerry ingresó la dirección web en su navegador, vio algo como esto:
+Cada fila es un punto de datos.
+Una gran cantidad de propiedades están asociadas con cada punto de datos.
+Debido a que las propiedades están separadas por comas, podemos deducir que el formato de
+los datos es csv, que significa comma separated values (valores separados por comas).
+En este punto, estos son solo números y no significan mucho para los humanos, pero una vez que 
+leamos estos datos, podemos tratar de darles más sentido.
+En pandas, el método read_csv() puede leer archivos con columnas separadas por comas y 
+convertirlos en un DataFrame de pandas.
+Leer datos en pandas se puede hacer rápidamente en tres líneas:
+Primero, importa pandas.
+Luego, define una variable con la ruta del archivo.
+Y finalmente, utiliza el método read_csv() para importar los datos.
+Sin embargo, read_csv() asume que los datos contienen un encabezado.
+Nuestro conjunto de datos sobre autos usados no tiene encabezados de columna, por lo que 
+necesitamos especificar que read_csv() no asigne encabezados, configurando el parámetro 
+header como "none".
+Después de leer el conjunto de datos, es una buena idea observar el dataframe para tener una 
+mejor intuición y asegurarnos de que todo ocurrió como esperábamos.
+Como imprimir todo el conjunto de datos puede llevar demasiado tiempo y recursos, para ahorrar 
+tiempo podemos usar dataframe.head() para mostrar las primeras n filas del dataframe.
+De manera similar, dataframe.tail(n) muestra las últimas n filas del dataframe.
+Aquí imprimimos las primeras 5 filas del conjunto de datos.
+¡Parece que el conjunto de datos se leyó con éxito!
+Podemos ver que pandas asignó automáticamente los encabezados de columna como una lista de 
+enteros, ya que configuramos header=None al leer los datos.
+Es difícil trabajar con un dataframe sin tener nombres significativos para las columnas. Sin 
+embargo, podemos asignar nombres de columna en pandas.
+En nuestro caso, descubrimos que los nombres de las columnas están en un archivo separado en 
+línea.
+Primero, colocamos los nombres de las columnas en una lista llamada headers.
+Luego, asignamos df.columns = headers para reemplazar los encabezados de enteros predeterminados 
+con la lista.
+Si utilizamos el método head() introducido en la diapositiva anterior para verificar el 
+conjunto de datos, vemos que los encabezados correctos se insertaron en la parte superior de 
+cada columna.
+En algún momento, después de realizar operaciones en tu dataframe, es posible que desees 
+exportar tu dataframe de pandas a un nuevo archivo CSV.
+Puedes hacer esto utilizando el método to_csv().
+Para hacerlo, especifica la ruta del archivo (que incluye el nombre del archivo) al que deseas 
+escribir.
+Por ejemplo, si deseas guardar el dataframe "df" como "automobile.csv" en tu propia computadora, 
+puedes usar la sintaxis: df.to_csv("automobile.csv").
+En este curso, solo leeremos y guardaremos archivos CSV.
+Sin embargo, pandas también admite la importación y exportación de la mayoría de los tipos de 
+archivo con diferentes formatos de conjuntos de datos.
+La sintaxis del código para leer y guardar otros formatos de datos es muy similar a la de leer 
+o guardar archivos CSV.
+Cada columna muestra un método diferente para leer y guardar archivos en un formato distinto.

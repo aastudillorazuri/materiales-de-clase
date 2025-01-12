@@ -1,4 +1,0 @@
-Haz los siguientes cálculos con las funciones explicadas hasta ahora, sobre la TABLA T_CURSOS en las celdas que a continuación se indica:
-- En B2: contar todos los datos de la columna curso.
-- En B3: contar el número de cursos con importe profesor menor de 500.
-- En B4: sumar las duraciones.

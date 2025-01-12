@@ -1,7 +1,0 @@
-Si en un momento dado se han agregado filas o columnas a la tabla que por algún motivo la tabla no las ha admitido, lógicamente tenemos que tratar que la tabla las admita. Para ello, lo que haremos será cambiar el tamaño de la tabla, seleccionando el nuevo rango de celdas que incluyen las nuevas filas y/o columnas incorporadas.
-
-Para realizar dicha operación, colocaremos la celda activa dentro de la tabla e iremos a la fila DISEÑO DE TABLA y al grupo de botones PROPIEDADES y ahí pulsaremos el botón CAMBIAR TAMAÑO DE LA TABLA.
-
-Se mostrará un cuadro de diálogo, con la dirección del rango que actualmente tiene la tabla.
-
-Lo que tendremos que hacer, será borrar el rango mostrado y seleccionar el nuevo rango de celdas que incluyen las nuevas filas y/o columnas incorporadas.
