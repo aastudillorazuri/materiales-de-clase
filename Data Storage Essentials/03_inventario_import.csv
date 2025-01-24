@@ -1,0 +1,101 @@
+﻿ID;Producto;Categoría;Stock;Precio Unitario;Fecha de Ingreso;Proveedor;Valor Total
+1;Impresora;Periféricos;22;815.99;2023-11-28;GadgetHub;17951.78
+2;Proyector;Electrónica;10;249.49;2024-10-05;PeripheralsInc;2494.9
+3;Impresora;Oficina;19;87.7;2023-12-19;PeripheralsInc;1666.3
+4;Teclado;Periféricos;5;1388.56;2024-04-15;OfficeFurn;6942.8
+5;Tablet;Periféricos;1;171.67;2024-06-05;TechSupplies;171.67
+6;Mouse;Electrónica;50;1336.86;2024-01-18;OfficeFurn;66843
+7;Tablet;Periféricos;13;842.38;2023-12-15;ElectroWorld;10950.94
+8;Impresora;Electrónica;16;1283.13;2024-07-10;OfficeFurn;20530.08
+9;Impresora;Electrónica;6;364.39;2023-11-08;PeripheralsInc;2186.34
+10;Proyector;Oficina;3;1151.06;2023-10-08;PeripheralsInc;3453.18
+11;Escritorio;Mobiliario;9;1336.35;2023-12-25;ElectroWorld;12027.15
+12;Escritorio;Mobiliario;30;1028.33;2024-05-06;PeripheralsInc;30849.9
+13;Laptop;Mobiliario;18;990.85;2024-01-05;GadgetHub;17835.3
+14;Auriculares;Mobiliario;32;748.29;2024-06-15;OfficeFurn;23945.28
+15;Monitor;Periféricos;3;1410.68;2024-07-21;TechSupplies;4232.04
+16;Laptop;Oficina;14;610.65;2024-07-29;OfficeFurn;8549.1
+17;Tablet;Mobiliario;37;344.49;2024-07-18;PeripheralsInc;12746.13
+18;Mouse;Electrónica;4;943.32;2024-04-16;GadgetHub;3773.28
+19;Mouse;Oficina;27;74.24;2024-09-06;TechSupplies;2004.48
+20;Silla Ergonómica;Periféricos;3;1424.82;2024-03-11;OfficeFurn;4274.46
+21;Escritorio;Oficina;30;274.22;2024-07-04;ElectroWorld;8226.6
+22;Teclado;Mobiliario;12;938.82;2024-01-04;GadgetHub;11265.84
+23;Auriculares;Electrónica;44;901.06;2023-12-20;ElectroWorld;39646.64
+24;Silla Ergonómica;Oficina;33;236.45;2024-08-16;GadgetHub;7802.85
+25;Mouse;Periféricos;34;194.62;2024-05-25;OfficeFurn;6617.08
+26;Monitor;Mobiliario;17;186.66;2024-02-06;OfficeFurn;3173.22
+27;Mouse;Periféricos;1;654.99;2023-11-14;GadgetHub;654.99
+28;Monitor;Periféricos;23;1345.89;2024-05-20;PeripheralsInc;30955.47
+29;Proyector;Mobiliario;23;444.54;2024-06-07;ElectroWorld;10224.42
+30;Auriculares;Periféricos;33;123.61;2024-04-09;PeripheralsInc;4079.13
+31;Laptop;Mobiliario;5;950.37;2024-06-10;TechSupplies;4751.85
+32;Proyector;Electrónica;49;281.06;2024-02-07;PeripheralsInc;13771.94
+33;Proyector;Periféricos;25;548.08;2024-08-24;TechSupplies;13702
+34;Monitor;Oficina;10;578.29;2024-07-05;TechSupplies;5782.9
+35;Proyector;Mobiliario;2;590.04;2024-08-04;OfficeFurn;1180.08
+36;Mouse;Periféricos;6;561.85;2024-09-17;ElectroWorld;3371.1
+37;Auriculares;Periféricos;36;525.56;2024-05-18;TechSupplies;18920.16
+38;Monitor;Mobiliario;20;73.91;2024-06-01;TechSupplies;1478.2
+39;Impresora;Oficina;50;1254;2024-07-21;PeripheralsInc;62700
+40;Proyector;Mobiliario;26;1386.95;2024-03-28;TechSupplies;36060.7
+41;Mouse;Oficina;6;1047.38;2024-03-04;PeripheralsInc;6284.28
+42;Proyector;Periféricos;38;1140.09;2024-06-24;GadgetHub;43323.42
+43;Monitor;Periféricos;27;493.96;2024-09-17;TechSupplies;13336.92
+44;Proyector;Electrónica;36;1231.41;2024-03-06;TechSupplies;44330.76
+45;Impresora;Mobiliario;13;139.33;2024-08-13;PeripheralsInc;1811.29
+46;Tablet;Periféricos;43;364.45;2024-02-13;TechSupplies;15671.35
+47;Mouse;Electrónica;46;731.05;2024-09-05;PeripheralsInc;33628.3
+48;Monitor;Periféricos;17;76.93;2024-03-09;TechSupplies;1307.81
+49;Monitor;Periféricos;45;1360.31;2024-02-12;PeripheralsInc;61213.95
+50;Silla Ergonómica;Electrónica;11;79.1;2023-12-27;ElectroWorld;870.1
+51;Auriculares;Periféricos;42;1055.55;2024-02-21;OfficeFurn;44333.1
+52;Silla Ergonómica;Periféricos;50;1133.45;2024-09-01;PeripheralsInc;56672.5
+53;Impresora;Electrónica;35;637.9;2024-03-03;GadgetHub;22326.5
+54;Impresora;Oficina;16;1041.77;2023-11-17;GadgetHub;16668.32
+55;Proyector;Mobiliario;35;995.24;2024-02-27;GadgetHub;34833.4
+56;Silla Ergonómica;Electrónica;20;379.93;2024-10-02;PeripheralsInc;7598.6
+57;Auriculares;Mobiliario;45;832.65;2023-10-22;OfficeFurn;37469.25
+58;Auriculares;Mobiliario;49;446.92;2024-07-15;PeripheralsInc;21899.08
+59;Monitor;Mobiliario;5;1442.21;2023-10-22;GadgetHub;7211.05
+60;Proyector;Electrónica;27;1112.17;2024-05-14;ElectroWorld;30028.59
+61;Mouse;Periféricos;23;1000.03;2024-05-21;OfficeFurn;23000.69
+62;Impresora;Periféricos;36;353.91;2024-05-31;PeripheralsInc;12740.76
+63;Laptop;Oficina;11;445.49;2024-01-10;GadgetHub;4900.39
+64;Silla Ergonómica;Oficina;11;1416.63;2024-03-15;OfficeFurn;15582.93
+65;Laptop;Mobiliario;39;372.31;2024-10-06;OfficeFurn;14520.09
+66;Silla Ergonómica;Electrónica;7;1099.08;2024-04-27;OfficeFurn;7693.56
+67;Impresora;Mobiliario;50;1315.33;2023-11-06;TechSupplies;65766.5
+68;Teclado;Oficina;39;501.2;2024-06-27;ElectroWorld;19546.8
+69;Proyector;Electrónica;35;320.05;2023-11-13;GadgetHub;11201.75
+70;Silla Ergonómica;Electrónica;33;28;2024-09-30;OfficeFurn;924
+71;Laptop;Electrónica;28;426.59;2024-02-01;PeripheralsInc;11944.52
+72;Silla Ergonómica;Periféricos;49;886.25;2024-05-25;PeripheralsInc;43426.25
+73;Proyector;Mobiliario;25;1413.37;2024-08-11;TechSupplies;35334.25
+74;Impresora;Oficina;37;570.08;2023-10-26;OfficeFurn;21092.96
+75;Mouse;Periféricos;20;1123.55;2024-08-25;PeripheralsInc;22471
+76;Impresora;Periféricos;6;759.41;2024-02-23;GadgetHub;4556.46
+77;Proyector;Periféricos;26;1144.63;2024-07-31;ElectroWorld;29760.38
+78;Teclado;Periféricos;27;399.2;2024-03-17;GadgetHub;10778.4
+79;Laptop;Mobiliario;43;906.31;2024-05-20;OfficeFurn;38971.33
+80;Auriculares;Oficina;43;785.86;2023-11-26;PeripheralsInc;33791.98
+81;Escritorio;Periféricos;24;205.9;2024-07-27;TechSupplies;4941.6
+82;Teclado;Electrónica;2;731.57;2023-12-16;ElectroWorld;1463.14
+83;Auriculares;Electrónica;34;297.75;2023-11-12;OfficeFurn;10123.5
+84;Monitor;Periféricos;46;764.28;2024-03-07;TechSupplies;35156.88
+85;Impresora;Mobiliario;48;1120.24;2023-12-08;PeripheralsInc;53771.52
+86;Laptop;Mobiliario;10;1072.85;2023-11-12;OfficeFurn;10728.5
+87;Escritorio;Electrónica;10;1491.34;2024-05-05;TechSupplies;14913.4
+88;Escritorio;Periféricos;44;1407.4;2024-02-13;PeripheralsInc;61925.6
+89;Teclado;Electrónica;29;117.83;2024-08-30;GadgetHub;3417.07
+90;Tablet;Periféricos;37;253.52;2024-01-11;PeripheralsInc;9380.24
+91;Mouse;Mobiliario;42;990.74;2023-12-07;PeripheralsInc;41611.08
+92;Proyector;Periféricos;8;1136.62;2024-09-27;OfficeFurn;9092.96
+93;Teclado;Periféricos;32;258.52;2024-08-19;OfficeFurn;8272.64
+94;Monitor;Mobiliario;21;750.35;2023-10-11;TechSupplies;15757.35
+95;Auriculares;Oficina;23;1331.65;2024-06-23;ElectroWorld;30627.95
+96;Teclado;Electrónica;14;1008.11;2024-05-24;OfficeFurn;14113.54
+97;Mouse;Electrónica;45;512.51;2024-04-06;ElectroWorld;23062.95
+98;Auriculares;Periféricos;33;838.58;2024-07-15;GadgetHub;27673.14
+99;Monitor;Mobiliario;18;965.83;2024-06-26;TechSupplies;17384.94
+100;Mouse;Electrónica;40;1029.26;2024-03-01;OfficeFurn;41170.4

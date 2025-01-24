@@ -1,0 +1,1 @@
+SELECT DISTINCT genero FROM Series;

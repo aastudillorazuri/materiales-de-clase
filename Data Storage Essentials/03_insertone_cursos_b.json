@@ -1,0 +1,7 @@
+db.cursos.insertOne({
+    curso: 'Programación en JavaScript',
+    duracion: 40, // en horas
+    estudiantes: ['Juan', 'María', 'Pedro', 'Ana'],
+    fechaInicio: new Date('2025-01-20'),
+    nivel: 'Intermedio'
+});

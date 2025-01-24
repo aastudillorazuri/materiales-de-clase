@@ -1,0 +1,16 @@
+db.cursos.insertOne({
+    curso: 'Introducción a MongoDB',
+    duracion: 30, // en horas
+    instructor: {
+        nomnbre: 'Laura Sánchez',
+        experiencia: 5, // años
+        certificaciones: ['MongoDB Certified Developer', 'Data Engineering']
+    },
+    ubicacion: {
+        ciudad: 'Ciudad de México',
+        direccion: 'Av. Reforma 123, Piso 2',
+        capacidad: 25
+    },
+    fechaInicio: new Date('2025-02-15'),
+    nivel: 'Básico'
+});
