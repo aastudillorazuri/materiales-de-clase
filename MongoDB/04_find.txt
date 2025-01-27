@@ -14,5 +14,67 @@ Ejemplo
 
 db.posts.find()
 
-B. 
+B. findOne()
 
+Para seleccionar solo un documento, podemos usar el método findOne().
+
+Este método acepta un objeto de consulta. Si se deja vacío, devolverá el primer 
+documento que encuentre.
+
+Nota: Este método solo devuelve el primer resultado que encuentra.
+
+Ejemplo
+
+db.posts.findOne()
+
+-- Consultar Datos
+
+Para consultar o filtrar datos, podemos incluir una consulta en nuestros métodos 
+find() o findOne().
+
+Ejemplo
+
+db.posts.find({category: "Noticias"})
+
+-- Proyección
+
+Ambos métodos find aceptan un segundo parámetro llamado proyección.
+
+Este parámetro es un objeto que describe qué campos incluir en los resultados.
+
+Nota: Este parámetro es opcional. Si se omite, todos los campos se incluirán en 
+los resultados.
+
+Ejemplo
+
+Este ejemplo solo mostrará los campos title y date en los resultados.
+
+db.posts.find({}, {title: 1, date: 1})
+
+Nota que el campo _id también está incluido. Este campo siempre se incluye a 
+menos que se excluya específicamente.
+
+Usamos 1 para incluir un campo y 0 para excluirlo.
+
+Ejemplo
+
+Esta vez, vamos a excluir el campo _id.
+
+db.posts.find({}, {_id: 0, title: 1, date: 1})
+
+Nota: No puedes usar tanto 0 como 1 en el mismo objeto. La única excepción es 
+el campo _id. Debes especificar ya sea los campos que deseas incluir o los 
+campos que deseas excluir.
+
+Vamos a excluir el campo category. Todos los demás campos se incluirán en los 
+resultados.
+
+Ejemplo
+
+db.posts.find({}, {category: 0})
+
+Obtendremos un error si intentamos especificar tanto 0 como 1 en el mismo objeto.
+
+Ejemplo
+
+db.posts.find({}, {title: 1, date: 0})
