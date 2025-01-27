@@ -1,0 +1,65 @@
+-- Actualizar Documentos
+
+Para actualizar un documento existente, podemos usar los métodos updateOne() o updateMany().
+
+El primer parámetro es un objeto de consulta que define qué documento o documentos deben 
+actualizarse.
+El segundo parámetro es un objeto que define los datos actualizados.
+
+A. updateOne()
+
+El método updateOne() actualizará el primer documento que coincida con la consulta 
+proporcionada.
+
+Veamos el conteo de "likes" para el post con el título "Post Title 1":
+
+Ejemplo
+
+db.posts.find({ title: "Post Title 1" })
+
+Ahora, actualicemos los "likes" de este post a 2. Para hacerlo, necesitamos usar el operador 
+$set.
+
+db.posts.updateOne({ title: "Post Title 1" }, { $set: { likes: 2 } })
+
+Consulta nuevamente el documento y verás que los "likes" han sido actualizados.
+
+db.posts.find({ title: "Post Title 1" })
+
+-- Insertar si no se encuentra
+
+Si deseas insertar el documento si no se encuentra, puedes usar la opción upsert.
+
+Ejemplo
+
+Actualiza el documento, pero si no se encuentra, insértalo:
+
+db.posts.updateOne( 
+  { title: "Post Title 5" }, 
+  {
+    $set: 
+      {
+        title: "Post Title 5",
+        body: "Cuerpo del post.",
+        category: "Evento",
+        likes: 5,
+        tags: ["noticias", "eventos"],
+        date: Date()
+      }
+  }, 
+  { upsert: true }
+)
+
+B. updateMany()
+
+El método updateMany() actualizará todos los documentos que coincidan con la consulta 
+proporcionada.
+
+Ejemplo
+
+Actualiza los "likes" de todos los documentos sumando 1. Para esto, utilizaremos el operador 
+$inc (incrementar):
+
+db.posts.updateMany({}, { $inc: { likes: 1 } })
+
+Ahora, verifica los "likes" en todos los documentos y verás que todos han incrementado en 1.

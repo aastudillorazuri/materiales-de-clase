@@ -19,8 +19,8 @@ db.posts.insertOne({
   date: Date()
 })
 
-Nota: Si intentas insertar documentos en una colección que no existe, MongoDB 
-creará automáticamente la colección.
+Nota: Si intentas insertar documentos en una colección que no existe, MongoDB creará 
+automáticamente la colección.
 
 B. insertMany()
 
