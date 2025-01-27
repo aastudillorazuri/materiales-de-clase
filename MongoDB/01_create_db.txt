@@ -1,0 +1,26 @@
+-- Crear una base de datos
+
+Después de conectarte a tu base de datos, puedes verificar qué base de datos estás usando 
+escribiendo "db" en tu terminal.
+
+-- Mostrar todas las bases de datos
+
+Para ver todas las bases de datos disponibles, escribe "show dbs" en tu terminal.
+
+Si una base de datos no aparece en la lista, es porque está vacía y MongoDB no la registra 
+hasta que contiene datos. Una base de datos vacía es, esencialmente, inexistente.
+
+-- Cambiar o crear una base de datos
+
+Puedes cambiar o crear una nueva base de datos escribiendo "use" seguido del nombre de la 
+base de datos.
+
+Ejemplo
+
+Crea una nueva base de datos llamada "blog":
+
+use blog
+
+Ahora estamos en la base de datos blog.
+
+Recuerda: En MongoDB, una base de datos no se crea realmente hasta que contiene datos.

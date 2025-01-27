@@ -1,0 +1,25 @@
+-- Crear una colección
+
+Existen 2 formas de crear una colección.
+
+A. Método 1
+
+Puedes crear una colección utilizando el método createCollection() de la base de datos.
+
+Ejemplo
+
+db.createCollection("posts")
+
+B. Método 2
+
+También puedes crear una colección durante el proceso de inserción.
+
+Ejemplo
+
+Asumimos que object es un objeto JavaScript válido que contiene datos de un post:
+
+db.posts.insertOne(object)
+
+Esto creará la colección "posts" si no existe ya.
+
+Recuerda: En MongoDB, una colección no se crea realmente hasta que contiene datos.

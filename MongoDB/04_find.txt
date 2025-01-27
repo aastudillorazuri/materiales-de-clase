@@ -1,0 +1,18 @@
+-- Encontrar Datos
+
+Existen 2 métodos para encontrar y seleccionar datos de una colección de MongoDB: 
+find() y findOne().
+
+A. find()
+
+Para seleccionar datos de una colección en MongoDB, podemos usar el método find().
+
+Este método acepta un objeto de consulta. Si se deja vacío, se devolverán todos 
+los documentos.
+
+Ejemplo
+
+db.posts.find()
+
+B. 
+

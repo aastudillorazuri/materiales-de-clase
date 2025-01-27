@@ -1,0 +1,58 @@
+-- Insertar Documentos
+
+Existen 2 métodos para insertar documentos en una base de datos MongoDB.
+
+A. insertOne()
+
+Para insertar un solo documento, utiliza el método insertOne().
+
+Este método inserta un solo objeto en la base de datos.
+
+Ejemplo
+
+db.posts.insertOne({
+  title: "Título del Post 1",
+  body: "Cuerpo del post.",
+  category: "Noticias",
+  likes: 1,
+  tags: ["noticias", "eventos"],
+  date: Date()
+})
+
+Nota: Si intentas insertar documentos en una colección que no existe, MongoDB 
+creará automáticamente la colección.
+
+B. insertMany()
+
+Para insertar varios documentos a la vez, utiliza el método insertMany().
+
+Este método inserta un arreglo de objetos en la base de datos.
+
+Ejemplo
+
+db.posts.insertMany([  
+  {
+    title: "Título del Post 2",
+    body: "Cuerpo del post.",
+    category: "Evento",
+    likes: 2,
+    tags: ["noticias", "eventos"],
+    date: Date()
+  },
+  {
+    title: "Título del Post 3",
+    body: "Cuerpo del post.",
+    category: "Tecnología",
+    likes: 3,
+    tags: ["noticias", "eventos"],
+    date: Date()
+  },
+  {
+    title: "Título del Post 4",
+    body: "Cuerpo del post.",
+    category: "Evento",
+    likes: 4,
+    tags: ["noticias", "eventos"],
+    date: Date()
+  }
+])
