@@ -1,0 +1,21 @@
+-- Eliminar Documentos
+
+Podemos eliminar documentos utilizando los métodos deleteOne() o deleteMany().
+
+Estos métodos aceptan un objeto de consulta. Los documentos que coincidan serán eliminados.
+
+A. deleteOne()
+
+El método deleteOne() eliminará el primer documento que coincida con la consulta proporcionada.
+
+Ejemplo
+    
+db.posts.deleteOne({ title: "Post Title 5" })
+
+B. deleteMany()
+
+El método deleteMany() eliminará todos los documentos que coincidan con la consulta proporcionada.
+
+Ejemplo
+
+db.posts.deleteMany({ category: "Technology" })
