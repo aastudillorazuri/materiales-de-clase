@@ -1,0 +1,32 @@
+db.personas.insertMany([
+  {
+    "nombre": "Juan",
+    "edad": 28,
+    "direccion": {
+      "calle": "Calle 123",
+      "ciudad": "Madrid",
+      "pais": "España"
+    },
+    "hobbies": ["lectura", "ciclismo", "cocina"]
+  },
+  {
+    "nombre": "Ana",
+    "edad": 34,
+    "direccion": {
+      "calle": "Avenida 456",
+      "ciudad": "Barcelona",
+      "pais": "España"
+    },
+    "hobbies": ["pintura", "viajar", "yoga"]
+  },
+  {
+    "nombre": "Luis",
+    "edad": 40,
+    "direccion": {
+      "calle": "Calle 789",
+      "ciudad": "Valencia",
+      "pais": "España"
+    },
+    "hobbies": ["fútbol", "ajedrez", "viajar"]
+  }
+])
